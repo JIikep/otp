@@ -11,7 +11,7 @@ import (
 
 func main() {
 	var secretkey string
-	secretkey = "VIG4GSHBRAS526HM777COAXVUF3J7QH5" // YOUR SECRET KEY
+	secretkey = "YOURSECRETKEY" // YOUR SECRET KEY
 
 	secret, _ := base32.StdEncoding.DecodeString(secretkey) // DECODE
 	epochSeconds := time.Now().Unix()
